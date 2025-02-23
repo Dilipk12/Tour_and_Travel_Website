@@ -30,9 +30,9 @@ const App = () => {
       loader
       ? 
       <div 
-      style={{backgroundImage:`url(public/image/background.png)`}}
+      style={{backgroundImage:`url(/public/image/background.png)`}}
       className="flex justify-center items-center h-screen">
-      <img className="w-32" src="public/image/loader.gif" alt="" />
+      <img className="w-32" src="/public/image/loader.gif" alt="" />
     </div>
     :
       <div
@@ -46,7 +46,7 @@ const App = () => {
           className="py-5 px-20 fixed top-0 left-0 right-0"
         >
           <div className="container mx-auto flex justify-between items-center">
-            <img className="w-5" src="./public/image/tjlogo.png" alt="" />
+            <img className="w-5" src="/public/image/tjlogo.png" alt="" />
             <div className="hidden font-inter md:flex space-x-16">
               <a href="#" className="hover:text-gray-400">
                 Home
@@ -84,7 +84,7 @@ const App = () => {
             animate={{ y: 0 }}
             transition={{ duration: 1.5, ease: "linear" }}
             className="absolute -bottom-6"
-            src="./public/image/rock.png"
+            src="/public/image/rock.png"
             alt=""
           />
           <motion.img
