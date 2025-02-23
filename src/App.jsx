@@ -46,7 +46,7 @@ const App = () => {
           className="py-5 px-20 fixed top-0 left-0 right-0"
         >
           <div className="container mx-auto flex justify-between items-center">
-            <img className="w-5" src="/public/image/tjlogo.png" alt="" />
+            <img className="w-5" src="/image/tjlogo.png" alt="" />
             <div className="hidden font-inter md:flex space-x-16">
               <a href="#" className="hover:text-gray-400">
                 Home
