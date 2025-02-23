@@ -30,14 +30,14 @@ const App = () => {
       loader
       ? 
       <div 
-      style={{backgroundImage:`url(/public/image/background.png)`}}
+      style={{backgroundImage:`url(/image/background.png)`}}
       className="flex justify-center items-center h-screen">
       <img className="w-32" src="/public/image/loader.gif" alt="" />
     </div>
     :
       <div
         className="h-screen overflow-hidden bg-bottom-0 relative"
-        style={{ backgroundImage: `url(/public/image/badal.png)` }}
+        style={{ backgroundImage: `url(/image/badal.png)` }}
       >
         <motion.nav
           initial={{ y: -100 }}
@@ -75,7 +75,7 @@ const App = () => {
             animate={{ y: 0 }}
             transition={{ duration: 1.5, ease: "linear" }}
             className="absolute top-32"
-            src="./public/image/mountain.png"
+            src="/image/mountain.png"
             alt=""
           />
 
@@ -84,7 +84,7 @@ const App = () => {
             animate={{ y: 0 }}
             transition={{ duration: 1.5, ease: "linear" }}
             className="absolute -bottom-6"
-            src="/public/image/rock.png"
+            src="/image/rock.png"
             alt=""
           />
           <motion.img
@@ -92,7 +92,7 @@ const App = () => {
             animate={{ x: 0 }}
             transition={{ duration: 1.5, ease: "linear", delay: 0.5 }}
             className="absolute -left-36 top-32"
-            src="/public/image/vectorr.png"
+            src="/image/vectorr.png"
             alt=""
           />
           <div className="z-50 text-center">
@@ -107,7 +107,7 @@ const App = () => {
                 animate={{ x: -0 }}
                 transition={{ duration: 0.5, ease: "easeInOut", delay: 2 }}
                 className="w-16 font-semibold z-10"
-                src="/public/image/tjlogo.png"
+                src="/image/tjlogo.png"
                 alt=""
               />
 
