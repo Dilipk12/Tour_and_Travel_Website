@@ -32,7 +32,7 @@ const App = () => {
       <div 
       style={{backgroundImage:`url(/image/background.png)`}}
       className="flex justify-center items-center h-screen">
-      <img className="w-32" src="/public/image/loader.gif" alt="" />
+      <img className="w-32" src="/image/loader.gif" alt="" />
     </div>
     :
       <div
