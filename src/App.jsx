@@ -66,7 +66,7 @@ const App = () => {
               initial={{ y: 400 }}
               animate={{ y: 0 }}
               transition={{ duration: 2, ease: "linear" }}
-              className="absolute top-32"
+              className="max-w-[1000px] sm:max-w-full absolute -bottom-5 lg:top-32 scale-150" 
               src="/image/mountain.png"
               alt=""
             />
@@ -75,7 +75,7 @@ const App = () => {
               initial={{ y: 200 }}
               animate={{ y: 0 }}
               transition={{ duration: 1.5, ease: "linear" }}
-              className="absolute -bottom-6"
+              className="absolute -bottom-6 h-[600px] sm:h-full sm:w-full"
               src="/image/rock.png"
               alt=""
             />
@@ -120,7 +120,7 @@ const App = () => {
                 initial={{ y: 0, opacity: 0 }}
                 animate={{ y: -220, opacity: 1 }}
                 transition={{ duration: 0.5, ease: "easeInOut", delay: 3 }}
-                className="text-5xl mt-28 tracking-[10px] font-Instrument z-50"
+                className="text-2xl text-center sm:text-5xl mt-28 tracking-[10px] font-Instrument z-50"
               >
                 {" "}
                 OM AADI KAILASH DARSHAN
@@ -129,7 +129,7 @@ const App = () => {
               {/* card data  */}
 
               <motion.div
-                initial={{ y: 340 }}
+                initial={{ y: 440 }}
                 animate={{ y: -30, opacity: 1 }}
                 transition={{ duration: 1, ease: "easeInOut", delay: 3 }}
                 className="flex items-center justify-center left-0 relative"
@@ -138,9 +138,9 @@ const App = () => {
                   style={{
                     backgroundImage: `url('https://www.indialogisticpackers.in/images/city-images/packers-movers-almora.jpg')`,
                   }}
-                  className={`bg-cover bg-center h-[300px] w-[250px] absolute duration-300  ${
+                  className={`bg-cover bg-center h-[250px] sm:h-[300px] w-[210px] sm:w-[250px] absolute duration-300  ${
                     rotateActive
-                      ? "-rotate-[30deg] -ml-[500px] mt-[130px]"
+                      ? "-rotate-[15deg] sm:-rotate-[30deg] -ml-[80px] sm:-ml-[500px] mt-[40px] sm:mt-[130px]"
                       : "rotate-0 mt-0 ml-0"
                   } bg-red-300 rounded-3xl`}
                 >
@@ -150,9 +150,9 @@ const App = () => {
                   style={{
                     backgroundImage: `url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg')`,
                   }}
-                  className={`bg-cover bg-center h-[300px] w-[250px] absolute duration-300  ${
+                  className={`bg-cover bg-center h-[250px] sm:h-[300px] w-[210px] sm:w-[250px] absolute duration-300  ${
                     rotateActive
-                      ? "-ml-[300px] mt-[45px] -rotate-[15deg]"
+                      ? "-ml-[40px] sm:-ml-[300px] mt-[10px] sm:mt-[45px] -rotate-[10deg] sm:-rotate-[15deg]"
                       : "rotate-0 mt-0 ml-0"
                   } bg-red-500 rounded-3xl`}
                 >
@@ -162,16 +162,16 @@ const App = () => {
                   style={{
                     backgroundImage: `url('https://i0.wp.com/grehlakshmi.com/wp-content/uploads/2024/03/image-21.webp?fit=1200%2C675&ssl=1')`,
                   }}
-                  className={`bg-cover bg-right h-[300px] w-[250px] z-20 absolute duration-300 -rotate-[0deg] bg-red-700 rounded-3xl`}
+                  className={`bg-cover bg-right h-[250px] sm:h-[300px] w-[210px] sm:w-[250px] z-20 absolute duration-300 -rotate-[0deg] bg-red-700 rounded-3xl`}
                 >
                 </div>
                 <div
                   style={{
                     backgroundImage: `url('https://images.herzindagi.info/webstories/13482/best-waterfalls-in-the-world-1687863263.jpeg')`,
                   }}
-                  className={`bg-cover bg-center h-[300px] w-[250px] absolute duration-300  ${
+                  className={`bg-cover bg-center h-[250px] sm:h-[300px] w-[210px] sm:w-[250px] absolute duration-300  ${
                     rotateActive
-                      ? "-mr-[300px] mt-[45px] rotate-[15deg]"
+                      ? "ml-[40px] sm:ml-[300px] mt-[10px] sm:mt-[45px] rotate-[10deg] sm:rotate-[15deg]"
                       : "rotate-0 mt-0 mr-0"
                   }  z-10 bg-red-400 rounded-3xl`}
                 >
@@ -181,9 +181,9 @@ const App = () => {
                   style={{
                     backgroundImage: `url('https://assets.weforum.org/article/image/responsive_large_0ZUBmNNVLRCfn3NdU55nQ00UF64m2ObtcDS0grx02fA.jpg')`,
                   }}
-                  className={`bg-cover bg-center h-[300px] w-[250px] absolute duration-300  ${
+                  className={`bg-cover bg-center h-[250px] sm:h-[300px] w-[210px] sm:w-[250px] absolute duration-300  ${
                     rotateActive
-                      ? "-mr-[500px] mt-[130px] rotate-[30deg]"
+                      ? "rotate-[15deg] sm:rotate-[30deg] ml-[80px] sm:ml-[500px] mt-[40px] sm:mt-[130px]"
                       : "rotate-0 mt-0 mr-0"
                   } bg-red-900 rounded-3xl`}
                 >
